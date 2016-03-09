@@ -1,0 +1,38 @@
+html,body,.modal-body,section.columns {
+		height: 100%;
+		font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;
+		margin:0; padding:0;
+}
+
+.modal-body {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+
+.columns {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#left-section {border-right:1px solid #ccc; width: 40%;}
+#right-section {
+	width: 40%;
+	border-left: 1px solid #ccc;
+}
+
+.timer {
+	font-size: 40px;
+}
+
+div.timer * {
+	vertical-align: middle;
+	line-height: 200%;;
+}
+
+h2 {font-size:26px; margin: 0; padding:0;}
+.timer {font-size:40px;}
+.start-stop-button {display:inline-block; background:#aa6708; color:#fff; border:1px solid #91601a; font-weight:bold; cursor:pointer;}
+.start-stop-button:hover {background:#91601a; color:#f3bf75;}
+#reset-button {display:inline-block; background:#edecec; color:#333; border:1px solid #ccc; font-weight:bold; cursor:pointer; padding:5px 10px;}
+#reset-button:hover {background:#d8d8d8; color:#000; border:1px solid #ccc;}
